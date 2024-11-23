@@ -24,6 +24,8 @@ phases:
   post_build:
     commands:
       - echo "Build completed successfully!"
+      - echo "Checking directory contents..."
+      - ls -l
 artifacts:
   files:
     - '**/*'

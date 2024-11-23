@@ -25,6 +25,7 @@ phases:
     commands:
       - echo "Build completed successfully!"
       - echo "Checking directory contents..."
+      - pwd
       - ls -l
 artifacts:
   files:
